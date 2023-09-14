@@ -1,0 +1,169 @@
+/* ページ全体のスタイル */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* テキストを中央に配置 */
+    justify-content: center;
+    min-height: 100vh;
+    margin-left: 150px;
+}
+
+/* body以外の全ての要素に対して上側のマージンを追加 */
+body > *:not(form) {
+    margin-top: -150px;
+    /* マージンを調整 */
+}
+
+/* フォームのスタイル */
+form {
+    text-align: left; /* フォーム内のテキストを左寄せにする */
+    width: 28rem; /* フォームの幅を調整 */
+    margin-top: -35px;
+}
+
+/* フォーム内のテキスト入力フィールドのスタイル */
+form input[type="text"],
+form input[type="password"],
+form input[type="date"]{
+    width: 500px;
+    padding: 10px;
+    margin-bottom: -100px;
+}
+
+form select{
+    width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* サブミットボタンのスタイル */
+form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: left; /* ボタンのテキストを左寄せにする */
+    border-radius: 7px;
+}
+
+a:link { 
+    color: white;
+} 
+
+h1{
+    font-size: 36px; 
+    font-weight: 10;
+}
+
+h2{
+    font-size: 26px; 
+    font-weight: 10;
+    margin-bottom: -20px;
+}
+
+h3{
+    font-size: 15px; 
+    font-weight: 10;
+    text-align: center;
+    vertical-align: auto;
+    margin-top: 40px;
+}
+
+/* リンクのスタイル */
+
+.create_button{
+    margin-left: 70px;
+    padding: 15px 25px; 
+    background-color: #34a3b8;
+    color: white;
+    align-items: center;
+    text-align: center;
+    border-radius: 7px;
+}
+
+
+
+
+p{
+    font-size: 12px;
+}
+
+.button_red{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: left; /* ボタンのテキストを左寄せにする */
+    border-radius: 7px;
+}
+
+.button_blue{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: left; /* ボタンのテキストを左寄せにする */
+    border-radius: 7px;
+}
+
+.button_grey{
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: left; /* ボタンのテキストを左寄せにする */
+    border-radius: 7px;
+    margin-left:25px;
+}
+
+.center_small{
+    width: 80%;
+}
+
+
+
+.inline-flex{
+    margin-bottom: 40px;
+    display: inline-flex;
+}
+
+
+
+table {
+  border-collapse: collapse; /* テーブルセルの境界線を結合 */
+  width: 100%; /* テーブルの幅を100%に設定（任意） */
+  margin-top:-20px;
+}
+
+td {
+  border: 1px solid #000; /* テーブルセルの境界線を設定 */
+  padding: 18px 10px; /* セル内の余白を設定（任意） */
+  text-align: center; /* セル内のテキストを中央寄せ（任意） */
+}
+
+th {
+    border: 0.5px solid #000; /* テーブルセルの境界線を設定 */
+    padding: 15px 10px; /* セル内の余白を設定（任意） */
+    text-align: center; /* セル内のテキストを中央寄せ（任意） */
+    background-color: #e5e9ed;
+  }
+
+
+
+  .login_return_button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 7px;
+  }
+
+  .center{
+    margin-left:20px ;
+  }
